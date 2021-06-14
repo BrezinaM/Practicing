@@ -16,7 +16,7 @@ h2{
     margin: 2%;
 }
 #mainimg{
-    height: 70vh;
+    max-width: 80%;
     border-radius: 50%;
 }
 .section2, .headingtext{
