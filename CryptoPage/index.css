@@ -1,0 +1,80 @@
+/*
+Yellow 255 195 11
+
+*/
+
+/* Body */
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/*Header*/
+header{
+    height: 100px;
+    float: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+header div.top-menu{
+    text-align: center; 
+    height: 100%; 
+    padding-top: 20px;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+header div.logo{
+    background-image: url(./images/logo_yellow.svg); 
+    height: 100%; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+header div a{
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+header div span a{
+    padding: 10px 20px 10px 20px;
+    color: white;
+}
+header div span a:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(255, 195, 11);
+    border-radius: 8px;
+}
+/*Landing image*/
+section.landing-image{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(./images/landing-image.new.jpg);
+    opacity: 1;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Landing image - heading*/
+section .landing-heading{
+    width: 60%;
+    margin: 35vh 20% 0 20%;
+    text-align: center;
+    color: white;
+    user-select: none;
+    position: static;
+}
+div.landing-heading  h2{
+    font-weight: 800;
+}
+div.landing-heading  p{
+    color: rgb(255, 195, 11);
+}
+/**/
+section.first-info{
+    background: white;
+    min-height: 40vh;
+    border-top: 5px solid rgb(255, 195, 11);
+    border-bottom: 5px solid rgb(255, 195, 11);
+}
