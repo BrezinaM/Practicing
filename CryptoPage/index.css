@@ -72,23 +72,47 @@ div.landing-heading  h2{
 div.landing-heading  p{
     color: rgb(255, 195, 11);
 }
-/**/
+/*Second Section*/
 section.second-section{
-    background: white;
+    background-image: url(./images/wave.svg);
+    background-repeat: no-repeat;
     min-height: 100%;
 }
 section div.first-info{
     padding: 3rem 0 3rem 0;
+    font-weight: 700;
 }
 section.second-section div h3{
     text-align: center;
     padding: 1rem;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    font-weight: 800;
 }
 section div.align-lower{
     margin-top: 3rem;
     padding: 1rem;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+}
+section div.decor1{
+    position: absolute;
+}
+/*Third Section*/
+section.third-section{
+    background: rgb(30, 30, 30);
+    color: black;
+    margin-bottom: 0;
+}
+section div.kinda-gallery{
+    padding-top: 6rem;
+}
+.card-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+.card-title-border{
+    border-bottom: 3px solid rgb(255, 195, 11);
+    padding: 0 10px 0 10px;
 }
